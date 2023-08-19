@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.left{
+    width: 50vw;
+    height: 100vh;
+}
+.right{
+    width: 50vw;
+    display: grid;
+    place-items:center;
+}
+.user{
+    width:300px;
+    height: 40px;
+    border-radius: 25px;
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #3D8A81;
+}
+.userlab{
+    margin-left: 30px;
+    font-size: 14px;
+    border: none;
+    color: #373333;
+}
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(28, 28, 28, 0.5);
+}
+
+h1{
+    font-size: 30px;
+}
+.btn{
+    background-color: #485E5A;
+    border: none;
+    color: white;
+}

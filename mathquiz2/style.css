@@ -1,0 +1,71 @@
+body{
+    background-color: #CBE7F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+}
+.main{
+    width:48vw;
+    height: 380px;
+    background-color: rgba(29, 77, 97, 0.8);
+    border-radius: 60px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.numGroud{
+    margin-bottom: 30px;
+}
+.num{
+    font-size: 75px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+}
+.input{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border-style: none;
+    border: 5px solid #CBE7F3;
+}
+input::placeholder{
+    font-size: 12px;
+    padding-left:10px;
+    opacity: 0.5;
+}
+.stopwatch{
+    width: 70px;
+    height: 70px;
+    border: 7px solid #CBE7F3;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    display: grid;
+    place-items: center;  
+    font-weight: 800; 
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    background-color:#CBE7F3 ;
+    color: rgba(29, 77, 97, 0.8);;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    }
+.btn:active {
+    background-color: #ffffff;
+    transform: scale(0.95);
+}
