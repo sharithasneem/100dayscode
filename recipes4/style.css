@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    background-color: #f5f6ea;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+header{
+    width: 100vw;
+    height: 13vh;
+    background-color: rgb(237, 175, 62);
+    box-shadow: 0px 5px 4px rgb(164, 164, 164);
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    width: 65vw;
+    height: 85vh;
+    background-color: rgb(238, 227, 175);
+    margin-top: 3px;
+    
+}
+.right{
+    width: 35vw;
+    height: 83vh;
+    margin-top: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+#food1{
+    width: 680px;
+    height: 400px;
+    margin: 35px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 23px;
+}
+.sideFood1{
+    width: 210px;
+    height: 130px;
+    border-radius: 5px;
+    margin:0px 20px 20px;
+    box-shadow: 0px 2px 5px ;
+    
+}
+.btn{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    width: 180px;
+    height: 50px;
+    border-style: none;
+    font-weight: 600;
+    background-color: rgba(229, 215, 173, 0.7);
+        font-size: 20px;
+        color: rgb(45, 42, 42);
+
+}
+.btn1,.btn2,.btn3{
+    background-color: #f5f6ea;
+    left: 1010px;
+    position: absolute;
+    border-style: none;
+    background-color: rgba(229, 215, 173, 0.7);
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+        color: rgb(45, 42, 42);
+}
+.btn1{
+    top: 150px;
+}
+.btn2{
+    top: 300px;
+}
+.btn3{
+    top:450px
+}
