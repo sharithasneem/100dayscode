@@ -6,32 +6,79 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-
-
 }
 .main{
     width: 40%;
-    height: 45%;
+    height: 35%;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 3px 13px rgb(128, 125, 125,0.5);
     padding: 25px;
+    padding-top: 14px;
 }
 .backgroundProgressBar{
     position: relative;
-    top: 55px;
+    top: 35px;
     height: 5px;
     background-color: lightgray;
     width: 80%;    
 }
 .FrontProgressBar{
     position: relative;
-        top: 40px;
+        top: 20px;
+        right: 200px;
         height: 5px;
         background-color: rgb(67, 78, 143);
-        width: 80%;
+        width: 0%;
+        transition: all 1s ease-out;
+}
+
+.precentage{
+    color: rgb(67, 78, 143);
 }
 .processState{
 color: #262626;
-
+}
+h3{
+    position: absolute;
+    top: 33px;
+    font-size: 14px;
+}
+.icons{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        position: relative;
+        left: 50.8px;
+        bottom: 10px;
+    }
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: bisque;   
+    display: flex; 
+    justify-content: space-between;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border:solid 3px rgb(67, 78, 143);
+    transition: all 0.6s ease-out;
+    
+}
+.icon5,.icon2,.icon3,.icon4{
+    border: solid 3px rgb(185, 186, 189);
+}
+.btn{
+    background-color: rgb(67, 78, 143);
+    width: 50px;
+    height: 33px;
+    border-style: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    left: 190px;
+    margin: 5px;
+    margin-top: 30px;
 }
