@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    transition: .4s;
+}
+
+.label{
+position: absolute;
+width: 90px;
+height: 40px;
+background-color: lightgrey;
+border-radius: 20px;
+}
+.circle{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 3px;
+    top: 2px;
+    animation: toggle 0.4s  linear forwards;
+}
+
+
+.input:checked+.label {
+    background-color: white;
+}
+
+.input:checked+.label .circle {
+    background-color: black;
+    animation: toggleOn 0.4s linear forwards;
+}
+
+@keyframes toggleOn {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(50px);
+    }
+}
+@keyframes toggle {
+    100%{
+        transform: translateX(0);
+    }
+    0%{
+        transform: translateX(50px);
+    }
+}
